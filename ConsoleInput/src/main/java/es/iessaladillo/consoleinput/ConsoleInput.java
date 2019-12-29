@@ -1115,7 +1115,7 @@ public class ConsoleInput {
 					exit = true;
 				}
 			}
-		} while (exit == false);
+		} while (!exit);
 		return readC;
 
 	}
